@@ -12,13 +12,13 @@ const JobCard = ({ jobObject }) => {
             </div>
             <div className="company-description">
                 <h4>About Company:</h4>
-                <p>
+                <p className='line-clamp'>
                     {jobObject?.jobDetailsFromCompany || ''}
                 </p>
                 <button className="show-more">Show more</button>
             </div>
             <div className="experience">
-                <h4>Minimum Experience</h4>
+                <h5>Minimum Experience</h5>
                 <p>{jobObject?.minExp || 0}</p>
             </div>
             <div className="actions">

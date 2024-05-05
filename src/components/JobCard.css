@@ -1,37 +1,38 @@
 .job-card {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 16px;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.8rem;
+    padding: 1.6rem;
     font-family: Arial, sans-serif;
+    max-width: 22rem;
 }
 
 .job-details {
-    margin-bottom: 16px;
+    margin-bottom: 1.6rem;
 }
 
 .job-details h3 {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
-    margin: 0 0 8px;
+    margin: 0 0 0.8rem;
 }
 
 .job-details p {
-    margin: 4px 0;
+    margin: 0.4rem 0;
     color: #666;
 }
 
 .company-description {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .company-description h4 {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
-    margin: 0 0 8px;
+    margin: 0 0 0.8rem;
 }
 
 .company-description p {
-    margin: 0 0 8px;
+    margin: 0 0 0.8rem;
     line-height: 1.4;
 }
 
@@ -44,15 +45,16 @@
 }
 
 .experience h4 {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
-    margin: 0 0 8px;
+    margin: 0 0 0.8rem;
 }
 
 .actions {
     display: flex;
     justify-content: flex-end;
-    margin-top: 16px;
+    margin-top: 1.6rem;
+    gap: 1rem;
 }
 
 .easy-apply,
@@ -63,10 +65,16 @@
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 8px;
 }
 
 .easy-apply:hover,
 .ask-referral:hover {
     background-color: #0056b3;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
