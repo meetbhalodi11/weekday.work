@@ -1,0 +1,16 @@
+.nav-container {
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0.8rem;
+    z-index: 2;
+    border: 0.1rem solid lightgray;
+    background: white;
+    /* margin-top: 0.8rem; */
+    border-radius: 0.8rem;
+}
+
+.nav-container .nav-title {
+    font-weight: 600;
+}

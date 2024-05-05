@@ -1,0 +1,72 @@
+.job-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.job-details {
+    margin-bottom: 16px;
+}
+
+.job-details h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.job-details p {
+    margin: 4px 0;
+    color: #666;
+}
+
+.company-description {
+    margin-bottom: 16px;
+}
+
+.company-description h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.company-description p {
+    margin: 0 0 8px;
+    line-height: 1.4;
+}
+
+.show-more {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.experience h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.easy-apply,
+.ask-referral {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.easy-apply:hover,
+.ask-referral:hover {
+    background-color: #0056b3;
+}
